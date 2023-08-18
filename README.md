@@ -5,16 +5,12 @@
 
 ### 1.1 Introduction & Background
 
-The Campeonato Nacional de Liga de Primera División,  commonly known as the Primera División, or La Liga
-is the men's top professional football division of the Spanish football league system.
-Since its inception, a total of 62 teams have competed in La Liga. Nine teams have been crowned champions,
-with Barcelona winning the inaugural La Liga and Real Madrid winning the title a record 35 times. [https://en.wikipedia.org/wiki/La_Liga]
-Barcelona are the most recent winners, having won the 2022–23 edition.
-We will be scraping football matches data for the past 3 seasons in view of exploring the relationship between the outcome of a football match
-(win, lose or draw) and a set of variables describing the game actions.
+The Campeonato Nacional de Liga de Primera División,  commonly known as the Primera División, or La Liga is the men's top professional football division of the Spanish football league system.
+Since its inception, a total of 62 teams have competed in La Liga. Nine teams have been crowned champions, with Barcelona winning the inaugural La Liga and Real Madrid winning the title a record 35 times. Barcelona is the most recent winner, having won the 2022–23 edition.[1](https://en.wikipedia.org/wiki/La_Liga). We will be scraping football matches data for the past 3 seasons in view of exploring the relationship between the outcome of a football match
+(win, lose, or draw) and a set of variables describing the game actions.
 
-1.2 Aims & Objectives
-within this project, I would like to explore the following:
+### 1.2 Aims & Objectives
+Within this project, I would like to explore the following:
 Scraping and Parsing HTML links from a website
 Extracting stats from the data using Pandas
 Cleaning and Merging scraped data from different tables and seasons
