@@ -25,28 +25,30 @@ Within this project, I would like to explore the following:
 2. Clean and Merge the needed datasets with relevant game actions
 3. Preprocess data and engineer additional features for analysis
 4. Exploratory data analysis
-5. Conclusions
+5. Conclusion
+
+![](fbref.JPG)
 
 ### 2. Data collection
 We opted for [fbref.com](https://fbref.com/en/comps/12/2022-2023/2022-2023-La-Liga-Stats) as it was easy to extract data for past seasons as well as some game actions that were of interest to us. Although the data was littered across several web pages and tables, it was just what we needed to explore these relationships further.
 
-![](fbref.JPG)
+![](fbref2.JPG)
 
 ![](Notebook0.JPG)
 
 As you know, every season three teams are relegated, and the same number is also promoted into the league. These were taken into consideration using a try & except block, while merging the datasets. Also, to avoid being thrown out from the webpage while scraping the data, 
 we had to delay the iterations by a few seconds.
 
-![](fbref2.JPG)
-
 ### 3. Data Cleaning
 From individual teams on the webpage, we were able to get the following tables: 'Scores and Fixtures', 'Shooting', and 'Defensive actions'. Only a few columns of interest were picked from the shooting and defensive actions tables. We merged these tables using the 'date' column, the team names were pre-processed and only games in the La Liga competition were selected.
 
-![](Notebook1.JPG)
-
 ![](Notebook2.JPG)
 
+![](Notebook1.JPG)
+
 ![](Notebook3.JPG)
+
+Upon merging all extracted tables and data, we save our Dataframe in a CSV file for onward analysis. 
 
 ![](Notebook4.JPG)
 
