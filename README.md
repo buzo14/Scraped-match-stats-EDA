@@ -30,7 +30,7 @@ Within this project, I would like to explore the following:
 ![](fbref.JPG)
 
 ### 2. Data collection
-We opted for [fbref.com](https://fbref.com/en/comps/12/2022-2023/2022-2023-La-Liga-Stats) as it was easy to extract data for past seasons as well as some game actions that were of interest to us. Although the data was littered across several web pages and tables, it was just what we needed to explore these relationships further.
+We opted for [fbref.com](https://fbref.com/en/comps/12/2022-2023/2022-2023-La-Liga-Stats) as it was easy to extract data for past seasons as well as some game actions that were of interest to us. Although the data was littered across several web pages and tables, it was just what we needed to explore these relationships further. You can a more detailed procedure of the web scraping process [here](https://medium.com/@ch1bu20/web-scraping-la-liga-football-matches-with-python-cabad37d1f86).
 
 ![](fbref2.JPG)
 
